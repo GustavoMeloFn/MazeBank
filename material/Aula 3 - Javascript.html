@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3 - Javascript</title>
+    <script> 
+        var domingo = false;
+        var segunda = true;
+        var terca = false;
+        var quarta = true;
+        var quinta = false;
+        var sexta = true; 
+        var sabado = true;
+        var x = "Bolo de cenoura"
+
+        //Chama o código dentro dessa função, quando ela for chamada dentro da rotina;
+        function rotina() {
+            document.write("Guilherme come Parmegiana.<br>");
+            document.write("Guilherme faz um Mousse de Morango.<br>");
+            document.write("Guilherme degusta Schweps gelado.<br>");
+            document.write("Guilherme joga vôlei enquanto assiste o basquete.<br><br>");
+        }
+
+        //Rotina com parametros são grandes variáveis que utilizamos apenas dentro da função; 
+        function rotina_com_parametros(nome, prato_favorito, sobremesa, bebida, esporte1, esporte2) {
+            nome = prompt("Me diga seu nome.")
+            document.write(nome + " come " + prato_favorito + ".<br>");
+            document.write(nome + " faz um " + sobremesa + ".<br>");
+            document.write(nome + " degusta " + bebida + " gelado.<br>");
+            document.write(nome + " joga " + esporte1 + " enquanto assiste " + esporte2+ ".<br><br>");
+        }   
+
+        //Atribui os valores de acordo com a ordem dos parametros dentro da function;
+        rotina_com_parametros("nome", "Pizza", "Sorvete", "Coca-cola", "Futebol", "Boxe");
+
+
+        function rotina_com_retorno(numero1, numero2) {
+            var exemplo = numero1 * numero2;
+            return exemplo;
+        }
+        
+        var n = 5;
+        var exemplo = n * rotina_com_retorno(1 * 2);
+        alert(exemplo);
+
+        if (domingo) {
+            rotina();
+        }        
+
+        if (segunda) {
+            rotina_com_parametros("Don Bruno", "Lasanha", x, "Coca-Cola", "Basquete", "Handebol ");
+        }
+
+        if (terca) {
+            rotina();
+        }
+
+        if (quarta) {
+            rotina_com_parametros("Lady Fabiola", "Strogonoff", "Bolinho de Chocolate", "Coca-Cola", "Futebol", "Vôlei");
+        }
+
+        if (quinta) {
+            rotina();
+        }
+
+        if (sexta) {
+            rotina_com_parametros("Sir Henrique", "Feijoada", "Gelatina", "Suco de Uva Artesanal do Vale Nevado Sueco", "Bocha", "Xadrez");
+        }
+
+        if (sabado) {
+            rotina();
+        }
+
+        //chama a função de nome rotina;
+        rotina();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        // Funções são rotinas (ou blocos) de código executados somente quando chamados. 
+
+        //Parâmetros são melhorias ou aperfeiçoamentos nas rotinas para que elas possuam mais fluidez ou funcionalidades. 
+
+     
+
+        function rotina_com_retorno(numero1, numero2) {
+            var exemplo = numero1 * numero2;
+            return exemplo
+        }
+
+        var n = 5;
+        //var exemplo = rotina_com_retorno() * rotina_com_retorno();
+        //alert(exemplo);
+
+    </script>
+</head>
+<body>
+    
+    
+
+</body>
+</html>
