@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    margin-top: 20px;
+    padding-top: 10px;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 12%;
+    margin-right: 12%;
+    justify-content: space-between;
+    border-bottom: solid 3px;
+    border-color: #A73C42;
+    background-color: #F2F2F2;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.411);
+    align-items: center;
+
+}
+
+.headerCliente{
+    margin-top: 3%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+    font-size: 80%;
+}
+
+header img{
+    margin-left: 50px;
+    max-width: 18%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 4.2%;
+    margin-right: 4.2%;
+    background-color: #CE1F2C;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.container h3{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    color: white;
+}
+
+.escolha{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.escolha button{
+    width: 25%;
+    height: 70px;
+    background-color: #D11F2D;
+    border-radius: 8px;
+    color: white;
+    transition: background-color 0.3s ease; /* Efetua uma transição em cima da propriedade background-color de 0.3 segundos */
+}
+
+/* Ao passar o mouse, o hover será executado: */
+.escolha button:hover{
+    background-color: #AE2235;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.411);
+    /* Os valores do box-shadow são separados da seguinte forma:
+     h - deslocamento horizontal da sombra
+     v - deslocamento vertical da sombra
+     blur - desfoque da sombra 
+     color - tipo de cor da sombra*/
+}
+
+.conteudo{
+    background-color: #F2F2F2;
+    padding: 10px;
+    margin-right: 12%;
+    margin-left: 12%;
+    height: 100%;
+    padding-bottom: 13%;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.411);
+}
