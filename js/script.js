@@ -3,7 +3,7 @@ var inserir_senha;
 var senha = '3589'; //Senha Global
 let nomeUsuario = prompt('Seja bem vindo, qual é o seu nome?');
 
-//Pega o valor do id"nomeUser" que está localizado no html:
+//Pega o id"nomeUser" que está localizado no html:
 let nomeDigitado = document.getElementById("nomeUser");
 //.innerHTML adiciona o valor dentro da tag localizada no html:
 nomeDigitado.innerHTML = "Olá, " + nomeUsuario;
@@ -36,6 +36,7 @@ function fazer_deposito() {
         saldo += deposito;
         //saldo = saldo + deposito;
         alert('Seu saldo atual é: ' + saldo);
+        saldoHeader.innerHTML = "Saldo: R$" + saldo;
     }
 }
 
@@ -101,7 +102,7 @@ function fazer_transferencia() {
             saldo -= transferencia;
             //saldo = saldo - transferencia;
             alert('Seu saldo é: ' + saldo);
-
+            saldoHeader.innerHTML = "Saldo: R$" + saldo;
         }
     } else {
         alert('senha incorreta');
