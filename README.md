@@ -4,6 +4,8 @@ Esse projeto é uma tentativa de recriar o site do Maze Bank, um banco fictício
 
 O site foi desenvolvido utilizando as tecnologias HTML, CSS e JavaScript, buscando replicar a funcionalidade e estética do site original dentro do jogo.
 
+<img src="img/MazeBankTemplate.jpeg"/>
+
 ## Tecnologias Utilizadas
 - **HTML**: Utilizado para estruturar o conteúdo da página.
 - **CSS**: Usado para estilizar a página, replicando o visual do site do Maze Bank no jogo.
