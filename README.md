@@ -1,4 +1,4 @@
-# MazeBank
+<h1><a href="https://gustavomelofn.github.io/MazeBank/">MazeBank</a></h1>
 
 Esse projeto é uma tentativa de recriar o site do Maze Bank, um banco fictício presente no jogo GTA 5 contendo funcionalidades de um caixa eletrônico. O personagem Michael, um dos protagonistas do jogo, é um dos usuários deste banco.
 
@@ -10,3 +10,5 @@ O site foi desenvolvido utilizando as tecnologias HTML, CSS e JavaScript, buscan
 - **JavaScript**: Implementado para adicionar interatividade ao site, simulando as funcionalidades do site original e de um caixa eletrônico.
 
 Este projeto é perfeito para quem é fã de GTA 5 e deseja explorar o Maze Bank fora do ambiente do jogo e experimentar a sensação de usar um caixa eletrônico virtual.
+
+**Senha de Teste**: 3589
